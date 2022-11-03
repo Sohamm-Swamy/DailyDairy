@@ -3,5 +3,9 @@
     <!-- Flutter needs it to communicate with the running application
          to allow setting breakpoints, to provide hot reload, etc.
     -->
+    <application 
+    android:label="amazon_clone_tutorial"
+    android:icon="@mipmap/ic_launcher">
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
 </manifest>

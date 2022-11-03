@@ -4,7 +4,6 @@ import 'package:amazon_clone_tutorial/features/admin/services/admin_services.dar
 import 'package:amazon_clone_tutorial/features/admin/widgets/category_products_chart.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:flutter/material.dart';
-
 class AnalyticsScreen extends StatefulWidget {
   const AnalyticsScreen({Key? key}) : super(key: key);
 
@@ -37,7 +36,7 @@ class _AnalyticsScreenState extends State<AnalyticsScreen> {
         : Column(
             children: [
               Text(
-                '\$$totalSales',
+                'Rs $totalSales',
                 style: const TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,

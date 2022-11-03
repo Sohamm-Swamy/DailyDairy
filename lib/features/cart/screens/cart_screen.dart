@@ -90,7 +90,7 @@ class _CartScreenState extends State<CartScreen> {
                             width: 1,
                           ),
                         ),
-                        hintText: 'Search Amazon.in',
+                        hintText: 'Search DailyDairy',
                         hintStyle: const TextStyle(
                           fontWeight: FontWeight.w500,
                           fontSize: 17,
@@ -118,10 +118,9 @@ class _CartScreenState extends State<CartScreen> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: CustomButton(
-                text: 'Proceed to Buy (${user.cart.length} items)',
-                onTap: () => navigateToAddress(sum),
-                color: Colors.yellow[600],
-              ),
+                  text: 'Proceed to Buy (${user.cart.length} items)',
+                  onTap: () => navigateToAddress(sum),
+                  color: GlobalVariables.secondaryColor),
             ),
             const SizedBox(height: 15),
             Container(

@@ -30,8 +30,9 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   fetchSearchedProduct() async {
-    products = await searchServices.fetchSearchedProduct(
-        context: context, searchQuery: widget.searchQuery);
+    products = (await searchServices.fetchSearchedProduct(
+            context: context, searchQuery: widget.searchQuery))
+        .cast<Product>();
     setState(() {});
   }
 
@@ -54,9 +55,9 @@ class _SearchScreenState extends State<SearchScreen> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Expanded(
-                child: Container(
+                child: SizedBox(
                   height: 42,
-                  margin: const EdgeInsets.only(left: 15),
+                  // margin: const EdgeInsets.only(left: 15),
                   child: Material(
                     borderRadius: BorderRadius.circular(7),
                     elevation: 1,
@@ -72,7 +73,7 @@ class _SearchScreenState extends State<SearchScreen> {
                             child: Icon(
                               Icons.search,
                               color: Colors.black,
-                              size: 23,
+                              size: 20,
                             ),
                           ),
                         ),
@@ -91,10 +92,10 @@ class _SearchScreenState extends State<SearchScreen> {
                           ),
                           borderSide: BorderSide(
                             color: Colors.black38,
-                            width: 1,
+                            width: 0,
                           ),
                         ),
-                        hintText: 'Search Amazon.in',
+                        hintText: 'Search DailyDairy',
                         hintStyle: const TextStyle(
                           fontWeight: FontWeight.w500,
                           fontSize: 17,

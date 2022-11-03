@@ -112,7 +112,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                             width: 1,
                           ),
                         ),
-                        hintText: 'Search Amazon.in',
+                        hintText: 'Search DailyDairy',
                         hintStyle: const TextStyle(
                           fontWeight: FontWeight.w500,
                           fontSize: 17,
@@ -217,17 +217,17 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
             Padding(
               padding: const EdgeInsets.all(10),
               child: CustomButton(
+                color: GlobalVariables.secondaryColor,
                 text: 'Buy Now',
                 onTap: () {},
               ),
             ),
-            const SizedBox(height: 10),
             Padding(
               padding: const EdgeInsets.all(10),
               child: CustomButton(
                 text: 'Add to Cart',
                 onTap: addToCart,
-                color: const Color.fromRGBO(254, 216, 19, 1),
+                color: GlobalVariables.secondaryColor,
               ),
             ),
             const SizedBox(height: 10),
@@ -240,7 +240,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
               child: Text(
                 'Rate The Product',
                 style: TextStyle(
-                  fontSize: 22,
+                  fontSize: 18,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -251,10 +251,10 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
               direction: Axis.horizontal,
               allowHalfRating: true,
               itemCount: 5,
-              itemPadding: const EdgeInsets.symmetric(horizontal: 4),
+              itemPadding: const EdgeInsets.symmetric(horizontal: 3),
               itemBuilder: (context, _) => const Icon(
                 Icons.star,
-                color: GlobalVariables.secondaryColor,
+                color: GlobalVariables.secColor,
               ),
               onRatingUpdate: (rating) {
                 productDetailsServices.rateProduct(

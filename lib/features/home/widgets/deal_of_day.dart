@@ -60,9 +60,9 @@ class _DealOfDayState extends State<DealOfDay> {
                     Container(
                       padding: const EdgeInsets.only(left: 15),
                       alignment: Alignment.topLeft,
-                      child: const Text(
-                        '\$100',
-                        style: TextStyle(fontSize: 18),
+                      child: Text(
+                        'Rs ${product?.price}',
+                        style: const TextStyle(fontSize: 18),
                       ),
                     ),
                     Container(
@@ -70,7 +70,7 @@ class _DealOfDayState extends State<DealOfDay> {
                       padding:
                           const EdgeInsets.only(left: 15, top: 5, right: 40),
                       child: const Text(
-                        'Rivaan',
+                        'Stock Images',
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                       ),
