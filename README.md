@@ -1,9 +1,6 @@
 # DailyDairy(Amazon Clone)
 
 Full Stack Flutter App along with User and Admin Panel
-<p align="center">
-  <img width="600" src="https://github.com/Sohamm-Swamy/DailyDairy/blob/master/screenshot.png" alt="Youtube Tutorial Image">
-</p>
 
 ## Features
 - Email & Password Authentication
