@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:amazon_clone_tutorial/common/widgets/custom_button.dart';
-import 'package:amazon_clone_tutorial/common/widgets/custom_textfield.dart';
-import 'package:amazon_clone_tutorial/constants/global_variables.dart';
-import 'package:amazon_clone_tutorial/constants/utils.dart';
-import 'package:amazon_clone_tutorial/features/admin/services/admin_services.dart';
+import 'package:daily_dairy/common/widgets/custom_button.dart';
+import 'package:daily_dairy/common/widgets/custom_textfield.dart';
+import 'package:daily_dairy/constants/global_variables.dart';
+import 'package:daily_dairy/constants/utils.dart';
+import 'package:daily_dairy/features/admin/services/admin_services.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';

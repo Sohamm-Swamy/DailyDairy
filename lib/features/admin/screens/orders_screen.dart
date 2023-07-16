@@ -1,8 +1,8 @@
-import 'package:amazon_clone_tutorial/common/widgets/loader.dart';
-import 'package:amazon_clone_tutorial/features/account/widgets/single_product.dart';
-import 'package:amazon_clone_tutorial/features/admin/services/admin_services.dart';
-import 'package:amazon_clone_tutorial/features/order_details/screens/order_details.dart';
-import 'package:amazon_clone_tutorial/models/order.dart';
+import 'package:daily_dairy/common/widgets/loader.dart';
+import 'package:daily_dairy/features/account/widgets/single_product.dart';
+import 'package:daily_dairy/features/admin/services/admin_services.dart';
+import 'package:daily_dairy/features/order_details/screens/order_details.dart';
+import 'package:daily_dairy/models/order.dart';
 import 'package:flutter/material.dart';
 
 class OrdersScreen extends StatefulWidget {

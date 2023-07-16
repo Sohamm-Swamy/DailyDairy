@@ -1,11 +1,11 @@
 import 'dart:convert';
 
-import 'package:amazon_clone_tutorial/common/widgets/bottom_bar.dart';
-import 'package:amazon_clone_tutorial/constants/error_handling.dart';
-import 'package:amazon_clone_tutorial/constants/global_variables.dart';
-import 'package:amazon_clone_tutorial/constants/utils.dart';
-import 'package:amazon_clone_tutorial/models/user.dart';
-import 'package:amazon_clone_tutorial/providers/user_provider.dart';
+import 'package:daily_dairy/common/widgets/bottom_bar.dart';
+import 'package:daily_dairy/constants/error_handling.dart';
+import 'package:daily_dairy/constants/global_variables.dart';
+import 'package:daily_dairy/constants/utils.dart';
+import 'package:daily_dairy/models/user.dart';
+import 'package:daily_dairy/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';

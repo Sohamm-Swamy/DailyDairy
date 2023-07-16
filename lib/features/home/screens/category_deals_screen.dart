@@ -1,8 +1,8 @@
-import 'package:amazon_clone_tutorial/common/widgets/loader.dart';
-import 'package:amazon_clone_tutorial/constants/global_variables.dart';
-import 'package:amazon_clone_tutorial/features/home/services/home_services.dart';
-import 'package:amazon_clone_tutorial/features/product_details/screens/product_details_screen.dart';
-import 'package:amazon_clone_tutorial/models/product.dart';
+import 'package:daily_dairy/common/widgets/loader.dart';
+import 'package:daily_dairy/constants/global_variables.dart';
+import 'package:daily_dairy/features/home/services/home_services.dart';
+import 'package:daily_dairy/features/product_details/screens/product_details_screen.dart';
+import 'package:daily_dairy/models/product.dart';
 import 'package:flutter/material.dart';
 
 class CategoryDealsScreen extends StatefulWidget {
