@@ -1,6 +1,6 @@
-# Amazon Clone
+# DailyDairy(Amazon Clone)
 
-Full Stack Amazon Clone along with Admin Panel
+Full Stack Flutter App along with User and Admin Panel
 
 ## Features
 - Email & Password Authentication
@@ -9,9 +9,9 @@ Full Stack Amazon Clone along with Admin Panel
 - Filtering Products (Based on Category)
 - Product Details
 - Rating
-- Getting Deal of the Day
+- Getting Deal of the Day (Admin panel updations)
 - Cart
-- Checking out with Google/Apple Pay
+- Checking out with Google/Apple Pay(not functional at the moment)
 - Viewing My Orders
 - Viewing Order Details & Status
 - Sign Out
@@ -24,16 +24,8 @@ Full Stack Amazon Clone along with Admin Panel
     - Viewing Total Earnings
     - Viewing Category Based Earnings (on Graph)
 
-## YouTube
-I have created a tutorial based on this, do check it out on my channel [Rivaan Ranawat](https://youtu.be/O3nmP-lZAdg) 
-
-<p align="center">
-  <img width="600" src="https://github.com/RivaanRanawat/flutter-amazon-clone-tutorial/blob/master/screenshot.png" alt="Youtube Tutorial Image">
-</p>
-
-
 ## Running Locally
-After cloning this repository, migrate to ```flutter-amazon-clone-tutorial``` folder. Then, follow the following steps:
+After cloning this repository, migrate to ```DailyDairy``` folder. Then, follow the following steps:
 - Create MongoDB Project & Cluster
 - Click on Connect, follow the process where you will get the uri.- Replace the MongoDB uri with yours in ```server/index.js```.
 - Head to ```lib/constants/global_variables.dart``` file, replace <yourip> with your IP Address. 
@@ -53,8 +45,7 @@ Then run the following commands to run your app:
 
 ### Client Side
 ```bash
-  flutter pub get
-  open -a simulator (to get iOS Simulator)
+  flutter pub get (to get the dependencies up to date)
   flutter run
 ```
 
@@ -65,4 +56,4 @@ Then run the following commands to run your app:
     
 ## Feedback
 
-If you have any feedback, please reach out to me at namanrivaan@gmail.com
+If you have any feedback, please reach out to me at sohamm746@gmail.com
